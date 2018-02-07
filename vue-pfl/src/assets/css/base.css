@@ -1,0 +1,347 @@
+
+/*  核心能力公共css */
+.kernel-banner{height: 460px;}
+.kernel-banner img{height: 100%;width: 100%;}
+.kernrl-txt{color: #666;}
+.kernrl-txt .inner{margin:0 auto;width: 1600px;}
+.kernrl-txt .inner .inner-tt{height: 45px;line-height: 45px;font-size: 18px;letter-spacing:2px;padding-top: 5px;}
+.kernrl-txt .inner .inner-bb{width: 100%;line-height: 40px;font-size: 24px;padding: 10px 15px;height:auto;}
+.kernrl-midimgb{height: 1000px;}
+
+/* 核心能力  布局未定css  */
+.kernrl-midimga{height: 400px;}
+.kernrl-midimga .midimg-le{float: left;width: 45%;height: 100%;}
+.kernrl-midimga .midimg-int{float: left;background: #dbe3ea;height: 100%;width: 55%;position: relative;font-size: 24px;color: #2ed0c3;}
+.kernrl-midimga .midimg-int .yth{position: absolute;left: 25%;top:20%;height: 40px;line-height: 40px;}
+
+/*   智慧类css*/
+.env-banner{height: 600px;}
+.env-txt .inenv{width: 1600px;margin: 0 auto;padding-top: 20px;}
+.env-txt .inenv h2{color: #333;font-size: 48px;height: 90px;line-height: 80px;}
+.env-txt .inenv p{font-size: 30px;line-height: 50px;color: #999;padding: 10px 15px;height:auto;width: 100%;}
+.env-main{margin-top: 50px;}
+.env-main .inenv{width: 1600px;margin: 0 auto;}
+.env-main .inenv .iner-sh{height: 620px;float: left;margin-bottom: 70px;margin-left: 7px;}
+.env-main .inenv .iner-sh .shimg{width: 525px;height:525px;}
+.env-main .inenv .iner-sh .shimg img{height: 100%;width: 100%;}
+.env-main .inenv .iner-sh .shtxt{font-size: 30px;height: 95px;width: 525px;background: #eee;display: block;color: #333;
+    line-height: 95px;text-align: center;}
+
+/* 公共banner css */
+.publicbanner{position: relative;height: 500px;}
+.publicbanner .publictxt{position: absolute;left: 50%;top:25%;width: 550px;color: #fff;font-size: 72px;margin-left: -275px;}
+.publicbanner .publictxt p{height: 120px;line-height: 120px;text-align: center;}
+.publicbanner .publictxt span{font-size: 48px;display: block;line-height: 100px;height: 100px;text-align: center;}
+
+/* 关于我们*/
+.infate{width: 1600px;margin: 0 auto;margin-top: 60px;}
+.infate .aboutmain{margin-bottom: 40px;height: 460px;}
+.infate .aboutmain li{float: left;width: 800px;height: 460px;background: #ff8d40;color: #fff;}
+.infate .aboutmain li h2{font-size: 24px;height: 50px;line-height: 50px;padding-top: 30px;padding-left: 35px;}
+.infate .aboutmain li p{font-size: 18px;height: 30px;line-height: 30px;padding-left: 35px;padding-right: 15px;}
+.infate .aboutmainb{margin-bottom: 40px;height: 460px;width: 1600px;margin: 0 auto;}
+.infate .aboutmainb li{float: left;width: 800px;height: 460px;background: #2ed0c3;color: #fff;}
+.infate .aboutmainb li h2{font-size: 24px;height: 50px;padding-top: 45px;padding-left: 35px;}
+.infate .aboutmainb li p{font-size: 18px;line-height: 30px;padding-left: 35px;padding-bottom: 10px;padding-right: 15px;}
+
+/* internet.css*/
+.interbanner{position: relative;height: 450px;}
+.interbanner .bannertxt{position: absolute;left: 50%;top:25%;width: 550px;color: #fff;font-size: 72px;margin-left: -275px;}
+.interbanner .bannertxt p{height: 120px;line-height: 120px;text-align: center;}
+.interbanner .bannertxt span{font-size: 48px;display: block;line-height: 100px;height: 100px;}
+.intermain .conmain{margin: 0 auto;width: 1600px;}
+.intermain .conmain .conmaintop{height: 400px;}
+.intermain .conmain .conmaintop .intopa{float: left;width: 390px;font-size: 20px;height: 360px;}
+.intermain .conmain .conmaintop .intopa .topaimg{width:100px;height:100px;margin-top: 85px;margin-left: 35%;margin-bottom: 10px;}
+.intermain .conmain .conmaintop .intopa .topaimg img{width:100%;height:100%;}
+.intermain .conmain .conmaintop .intopa h3{height:50px;line-height: 50px;color: #000;margin-left: 38%;margin-bottom: 10px;cursor: pointer;}
+.intermain .conmain .conmaintop .intopa p{height:50px;line-height: 50px;color: #999;margin-left: 25%;margin-bottom: 15px;}
+.intermain .conmain .conmaintop .intopa span{display: block;border-bottom: 2px solid #5272f9;width: 30px;text-align: center;margin-left: 45%;}
+.intermain .conmain .conmainbot .aita{height: 140px;float: left;width: 100px;text-align: center;}
+.intermain .conmain .conmainbot .aita li{height:35px;width: 106px;color: #333333;font-size: 18px;background: #5272f9;line-height: 35px;}
+.intermain .conmain .conmainbot .conmainbotshow{float: left;width: 1600px;}
+.intermain .conmain .conmainbot .conmainbotshow .delp{height:625px;margin-bottom: 70px;float: right;}
+.el-tab-pane{width: 1500px;}
+ .delp .delpz{float: left;width: 330px;background: #ff8d40;margin-left: 6px;color: #fff;height: 625px;}
+.delp .delpz .delpzimg{height: 80px;width: 80px;margin-top: 150px;margin-left: 30px;}
+ .delp .delpz .delpzimg img{height: 100%;width: 100%;}
+ .delp .delpz h3{font-size: 48px;height: 80px;line-height: 80px;text-align: center;margin-top: 20px;cursor: pointer;}
+ .delp .delpz p{font-size: 24px;line-height: 60px;text-align: center;width: 80%;text-align: center;margin: 0 auto;}
+ .delp .delpy{float: left;width: 1160px;}
+ .delp .delpy li{float: left;margin-left: 6px;margin-bottom: 6px;height: 310px;}
+ .delp .delpy li img{height: 100%;width: 100%;}
+.delptwo{height:625px;margin-bottom: 70px;float: right;}
+.delptwo .delpz{float: left;width: 330px;background: #4f9cdb;margin-left: 6px;color: #fff;height: 625px;}
+ .delptwo .delpz .delpzimg{height: 80px;width: 80px;margin-top: 150px;margin-left: 30px;}
+ .delptwo .delpz .delpzimg img{height: 100%;width: 100%;}
+ .delptwo .delpz h3{font-size: 48px;height: 80px;line-height: 80px;text-align: center;margin-top: 20px;cursor: pointer;}
+ .delptwo .delpz p{font-size: 24px;line-height: 60px;text-align: center;width: 80%;text-align: center;margin: 0 auto;}
+ .delptwo .delpy{float: left;width: 1160px;}
+ .delptwo .delpy li{float: left;margin-left: 6px;margin-bottom: 6px;height: 310px;}
+ .delptwo .delpy li img{height: 100%;width: 100%;}
+ .delpthree{height:625px;margin-bottom: 70px;float: right;}
+ .delpthree .delpth{float: left;width: 330px;background: #2ed0c3;margin-left: 6px;color: #fff;height: 625px;}
+ .delpthree .delpth .delpzimg{height: 80px;width: 80px;margin-top: 150px;margin-left: 30px;}
+ .delpthree .delpth .delpzimg img{height: 100%;width: 100%;}
+ .delpthree .delpth h3{font-size: 48px;height: 80px;line-height: 80px;text-align: center;margin-top: 20px;cursor: pointer;}
+ .delpthree .delpth p{font-size: 24px;line-height: 60px;text-align: center;width: 80%;text-align: center;margin: 0 auto;}
+ .delpthree .delpthr{width:700px;float:left;}
+ .delpthree .delpthr li{float: left;margin-bottom: 6px;height: 310px;margin-left: 6px;}
+ .delpthree .delee{width: 460px;float: right;height: 625px;}
+ .delpfour{height:625px;margin-bottom: 70px;float: right;}
+ .delpfour .delpth{float: left;width: 330px;background: #5272f9;margin-left: 6px;color: #fff;height: 625px;}
+.delpfour .delpth .delpzimg{height: 80px;width: 80px;margin-top: 150px;margin-left: 30px;}
+ .delpfour .delpth .delpzimg img{height: 100%;width: 100%;}
+ .delpfour .delpth h3{font-size: 48px;height: 80px;line-height: 80px;text-align: center;margin-top: 20px;}
+ .delpfour .delpth p{font-size: 24px;line-height: 60px;text-align: center;width: 80%;text-align: center;margin: 0 auto;}
+ .delpfour .delpthr{width:700px;float:left;}
+ .delpfour .delpthr li{float: left;margin-bottom: 6px;height: 310px;margin-left: 6px;}
+ .delpfour .delur{width: 460px;float: right;height: 625px;}
+
+/*Home.css*/
+.home-banner{position: relative;}
+.carouselbanner{height: 600px;}
+.fen{height: 600px;}
+.lunbotxt{font-size: 72px;color: #000;position: absolute;left: 50%;top: 40%;color: #fff;width: 1000px;margin-left: -500px;}
+.inner{margin: 0 auto;width: 1600px;}
+.homemain{background: #f8f8f8;font-size: 36px;color: #fff;height: 800px;}
+.homemain h2{color: #000;height: 120px;line-height:120px;text-align: center;letter-spacing:3px;}
+.homemain .mainle{float: left;position: relative;width: 345px;height: 625px;cursor: pointer;}
+.homemain .mainle img{width: 100%;height:100%;}
+.homemain .mainle p{position: absolute;right: 10%;top:40%;width: 15%;cursor: pointer;}
+.homemain ul{float: left;width: 910px;}
+.homemain ul li{position: relative;float: left;margin-left: 5px;margin-bottom: 5px;cursor: pointer;}
+.homemain ul li a{position: relative;display: block;}
+.homemain ul li:nth-child(1) span{display: block;position: absolute;left: 55%;bottom: 10%;}
+.homemain ul li:nth-child(2) span{display: block;position: absolute;left: 50%;bottom: 10%}
+.homemain ul li:nth-child(3) span{display: block;position: absolute;left: 30%;bottom: 10%;}
+.homemain ul li:nth-child(4) span{display: block;position: absolute;left: 15%;bottom: 10%;}
+.homemain .mainri{float: left;width: 340px;position: relative;cursor: pointer;}
+.homemain .mainri p{position: absolute;right: 10%;top:40%;width: 15%;}
+.hometent{height: 940px;}
+.hometent h2{height: 120px;font-size: 36px;line-height: 120px;text-align: center;color: #000;letter-spacing:3px;}
+.el-carousel__item:nth-child(2n) {background-color: #99a9bf;}
+.el-carousel__item:nth-child(2n+1) {background-color: #d3dce6;}
+.hometent .incontent .incontentle .bs{background: #ff8d40;}
+.inter{width: 1600px;margin: 0 auto;}
+.homebot h2{height: 120px;font-size: 36px;line-height: 120px;text-align: center;color: #000;letter-spacing:3px;}
+.vue-accordion {width: 100%;overflow: hidden;height: 460px;max-width: 1600px;}
+.vue-accordion ul { width: 100%;height: 100%;display: table;table-layout: fixed;margin: 0;padding: 0;}
+.vue-accordion ul li {display: table-cell;vertical-align: bottom;position: relative;width: 50%;background-repeat: no-repeat;
+background-position: center center;transition: all 500ms ease;height: 100%;background: #5272f9;height: 460px;}
+.vue-accordion ul li img{height: 100%;width: 100%;}
+.vue-accordion ul li a {display: block;width: 100%;padding: 15px 20px;color: #fff;transition: all 200ms ease;height: 100%;}
+.vue-accordion ul li a * {opacity: 0;margin: 0;width: 100%;text-overflow: ellipsis;position: relative;z-index: 5;white-space: nowrap;overflow: hidden;
+-webkit-transform: translateX(-20px);transform: translateX(-20px);-webkit-transition: all 400ms ease;transition: all 400ms ease;}
+.vue-accordion ul li a h2 {text-overflow: clip;font-size: 24px;text-transform: uppercase;margin-bottom: 2px;padding-top: 20px;height: 50px;line-height: 50px;}
+.vue-accordion ul li a p {font-size: 14px;}
+.vue-accordion ul:hover li {width: 15%;}
+.vue-accordion ul:hover li:hover { width: 80%; }
+.vue-accordion ul:hover li:hover a { background: rgba(0, 0, 0, 0.4); }
+.vue-accordion ul:hover li:hover a * { opacity: 0.5;-webkit-transform: translateX(0);transform: translateX(0);}
+
+/*enterprise.css */
+.erpriba{position: relative;}
+.erpriba .erpribanner{position: absolute;left: 165px;top: 100px;width: 915px;color: #fff;text-align: center;}
+.erpriba .erpribanner p{font-size: 72px;height: 150px;letter-spacing:10px;}
+.erpriba .erpribanner span{font-size: 48px;height: 100px;}
+.erprimain{background: #eee;}
+.erprimain .inner{width: 1600px;margin: 0 auto;padding-top: 55px;height: 720px;}
+.erprimain .inner .former{height: 660px;}
+.erprimain .inner .former .formerle{float: left;width: 560px;height: 660px;margin-left: 10px;}
+.erprimain .inner .former .formerle .formerlea{height: 325px;width: 565px;background: #fff;margin-bottom: 10px;}
+.erprimain .inner .former .formerle .formerlea h3{font-size: 48px;height: 100px;color: #333333;padding-top: 20px;padding-left: 40px;}
+.erprimain .inner .former .formerle .formerlea p{color: #999;line-height: 40px;font-size: 24px;padding-left: 40px;}
+.erprimain .inner .former .formermid{float: left;width: 450px;background: #ff8d40;height: 660px;color: #fff;margin-left: 10px;}
+.erprimain .inner .former .formermid p{padding-top: 270px;width: 360px;text-align: center;font-size: 48px;margin: 0 auto;}
+.erprimain .inner .former .formermid span{width: 360px;text-align: center;font-size: 24px;height: 60px;display: block;margin: 0 auto;}
+.erprimain .coer{background: #fff;height: 525px;}
+.erprimain .coer .mertwo{width: 1600px;margin: 0 auto;height: 470px;}
+.erprimain .coer .mertwo .ertwoimg{float: left;width: 800px;height: 470px;}
+.erprimain .coer .mertwo .ertwoimg img{height: 100%;width: 100%;}
+.erprimain .coer .mertwo .ertwotxt{float: right;width: 800px;height: 470px;color: #fff;background: #5272f9;}
+.erprimain .coer .mertwo .ertwotxt h3{font-size: 48px;height: 85px;padding-top: 60px;padding-left: 38px;}
+.erprimain .coer .mertwo .ertwotxt h4{font-size: 32px;height: 75px;padding-left: 38px;}
+.erprimain .coer .mertwo .ertwotxt p{font-size: 28px;height: 50px;padding-left: 38px;}
+.erprimain .nh{height: 100px;line-height: 100px;text-align: center;font-size: 30px;letter-spacing: 3px;}
+/* fate.css*/
+.infata{color: #fff;}
+.infata .erline{position: absolute;left: 160px;top: 100px;z-index: 10;}
+.infata .erline .line{height: 740PX;border-left: 1px solid #fff;margin-top: 90px;}
+.infata .erline .line .adx{width: 10px;float: left;}
+.infata .erline .line .adx li{height: 50px;width: 10px;border-bottom: 1px solid #fff;margin-bottom: 80px;}
+.infata .erline .line .fatatab{padding-left: 25px;float: left;}
+.infata .erline .line .fatatab li{text-align: center;font-size: 20px;line-height: 50px;height: 130px;text-decoration:underline;
+padding-top: 5px;cursor: pointer;}
+.infata .erline .line .fatatab li a{display: block;color: #fff;height: 50px;cursor: pointer;}
+.infata .cold:nth-child(2){display: block;}
+.infata .cold{display:none;}
+.infata .linetentaa{height: 900px;background: #5272f9;position: relative;}
+.infata .linetentaa .comele{float: left;width: 700px;height: 510px;margin-left: 380px;margin-top: 390px;}
+.infata .linetentaa .comele img{height: 100%;width: 100%;}
+.infata .linetentaa .comeri{float: right;width: 650px;margin-right: 160px;padding-top: 80px;}
+.infata .linetentaa .comeri .comeritop{padding-bottom: 30px;}
+.infata .linetentaa .comeri .comeritop h3{font-size: 36px;height: 70px;}
+.infata .linetentaa .comeri .comeritop p{font-size: 14px;line-height: 30px;}
+.infata .linetentaa .comeri .comerimid h3{font-size: 36px;height: 70px;}
+.infata .linetentaa .comeri .comerimid p{font-size: 14px;line-height: 30px;}
+.infata .linetentaa .comeri .comeribot{padding-top: 30px;}
+.infata .linetentaa .comeri .comeribot h3{font-size: 36px;height: 70px;}
+.infata .linetentaa .comeri .comeribot .fan{height: 200px;width: 650px;}
+.infata .linetentaa .comeri .comeribot .fan img{height: 100%;width: 100%;}
+.infata .linetentbb{height: 900px;background: #03a9f5;}
+.infata .linetentbb .comeonle{float: left;width: 650px;margin-left: 350px;}
+.infata .linetentbb .comeonle .comeritop{padding-bottom: 60px;padding-top: 110px;}
+.infata .linetentbb .comeonle .comeritop h3{font-size: 36px;height: 70px;}
+.infata .linetentbb .comeonle .comeritop p{font-size: 14px;line-height: 30px;}
+.infata .linetentbb .comeonle .comerimid h3{font-size: 36px;height: 70px;}
+.infata .linetentbb .comeonle .comerimid p{font-size: 14px;line-height: 30px;}
+.infata .linetentbb .comeonle .comeribot{padding-top: 30px;}
+.infata .linetentbb .comeonle .comeribot h3{font-size: 36px;height: 70px;}
+.infata .linetentbb .comeonle .comeribot .fan{height: 200px;width: 650px;}
+.infata .linetentbb .comeonle .comeribot .fan img{height: 100%;width: 100%;}
+.infata .linetentbb .comeonri{float: right;width: 600px;height: 840px;margin-right: 160px;margin-top: 60px;}
+.infata .linetentbb .comeonri img{height: 100%;width: 100%;}
+.infata .linetentcc{height: 900px;background: #ffb329;}
+.infata .linetentcc .comele{float: left;width: 600px;height: 600px;margin-left: 300px;margin-top: 125px;margin-right: 100px;}
+.infata .linetentcc .comele img{height: 100%;width: 100%;}
+.infata .linetentcc .comeri{float: right;width: 650px;margin-right: 100px;padding-top: 80px;}
+.infata .linetentcc .comeri .comeritop{padding-bottom: 60px;}
+.infata .linetentcc .comeri .comeritop h3{font-size: 36px;height: 70px;}
+.infata .linetentcc .comeri .comeritop p{font-size: 14px;line-height: 25px;}
+.infata .linetentcc .comeri .comerimid h3{font-size: 36px;height: 70px;}
+.infata .linetentcc .comeri .comerimid p{font-size: 14px;line-height: 25px;}
+.infata .linetentcc .comeri .comeribot{padding-top: 30px;}
+.infata .linetentcc .comeri .comeribot h3{font-size: 36px;height: 70px;}
+.infata .linetentcc .comeri .comeribot .fan{height: 200px;width: 650px;}
+.infata .linetentcc .comeri .comeribot .fan img{height: 100%;width: 100%;}
+.infata .linetentdd{height: 900px;background: #01b760;}
+.infata .linetentdd .comeonle{float: left;width: 650px;margin-left: 350px;}
+.infata .linetentdd .comeonle .comeritop{padding-bottom: 60px;padding-top: 110px;}
+.infata .linetentdd .comeonle .comeritop h3{font-size: 36px;height: 70px;}
+.infata .linetentdd .comeonle .comeritop p{font-size: 14px;line-height: 30px;}
+.infata .linetentdd .comeonle .comerimid h3{font-size: 36px;height: 70px;}
+.infata .linetentdd .comeonle .comerimid p{font-size: 14px;line-height: 30px;}
+.infata .linetentdd .comeonle .comeribot{padding-top: 30px;}
+.infata .linetentdd .comeonle .comeribot h3{font-size: 36px;height: 70px;}
+.infata .linetentdd .comeonle .comeribot .fan{height: 200px;width: 650px;}
+.infata .linetentdd .comeonle .comeribot .fan img{height: 100%;width: 100%;}
+.infata .linetentdd .comeonri{float: right;width: 650px;height: 650px;margin-right: 160px;margin-top: 125px;}
+.infata .linetentdd .comeonri img{height: 100%;width: 100%;}
+.infata .linetentee{height: 900px;background: #9e42fd;}
+.infata .linetentee .comele{float: left;width: 650px;height: 650px;margin-left: 370px;margin-top: 120px;}
+.infata .linetentee .comele img{height: 100%;width: 100%;}
+.infata .linetentee .comeri{float: right;width: 650px;margin-right: 160px;padding-top: 80px;}
+.infata .linetentee .comeri .comeritop{padding-bottom: 60px;}
+.infata .linetentee .comeri .comeritop h3{font-size: 36px;height: 70px;}
+.infata .linetentee .comeri .comeritop p{font-size: 14px;line-height: 25px;}
+.infata .linetentee .comeri .comerimid h3{font-size: 36px;height: 70px;}
+.infata .linetentee .comeri .comerimid p{font-size: 14px;line-height: 25px;}
+.infata .linetentee .comeri .comeribot{padding-top: 30px;}
+.infata .linetentee .comeri .comeribot h3{font-size: 36px;height: 70px;}
+.infata .linetentee .comeri .comeribot .fan{height: 200px;width: 650px;}
+.infata .linetentee .comeri .comeribot .fan img{height: 100%;width: 100%;}
+.infata .linetentff{height: 900px;background: #34cfc9;}
+.infata .linetentff .comeonle{float: left;width: 650px;margin-left: 350px;}
+.infata .linetentff .comeonle .comeritop{padding-bottom: 60px;padding-top: 110px;}
+.infata .linetentff .comeonle .comeritop h3{font-size: 36px;height: 70px;}
+.infata .linetentff .comeonle .comeritop p{font-size: 14px;line-height: 30px;}
+.infata .linetentff .comeonle .comerimid h3{font-size: 36px;height: 70px;}
+.infata .linetentff .comeonle .comerimid p{font-size: 14px;line-height: 30px;}
+.infata .linetentff .comeonle .comeribot{padding-top: 30px;}
+.infata .linetentff .comeonle .comeribot h3{font-size: 36px;height: 70px;}
+.infata .linetentff .comeonle .comeribot .fan{height: 200px;width: 650px;}
+.infata .linetentff .comeonle .comeribot .fan img{height: 100%;width: 100%;}
+.infata .linetentff .comeonri{float: right;width: 650px;height: 600px;margin-right: 160px;margin-top: 300px;}
+.infata .linetentff .comeonri img{height: 100%;width: 100%;}
+
+/* talentjob*/
+.main .inner{margin: 0 auto;width: 1600px;}
+.main .inner .innertop{height: 155px;border-bottom: 1px solid #666666;}
+.main .inner .innertop ul{color: #666;font-size: 36px;font-weight: bold;padding-top: 30px;text-align: center;}
+.main .inner .innertop ul li{float: left;width: 25%;height: 80px;line-height: 80px;}
+.main .inner .specific{height: 70px;padding-top: 30px;}
+.main .inner .specific li{float: left;text-align: center;width: 25%;height: 70px;line-height: 70px;}
+.main .inner .specific li a{display: block;color: #666;font-size: 36px;height: 70px;}
+
+/* detailsjob */
+.content .inner {margin: 0 auto;width: 1600px;}
+.content .inner .job {font-size: 36px;color: #000;height: 80px;	line-height: 80px;padding-top: 30px;}
+.content .inner ul {color: #666;font-size: 24px;height: 330px;}
+.content .inner ul li {float: left;width: 50%;height: 60px;line-height: 40px;padding-top: 30px;padding-bottom: 30px;}
+.content .inner .description {font-size: 24px;color: #666;}
+.content .inner .description h2 {padding-bottom: 60px;}
+.content .inner .description p {line-height: 40px;}
+.content .inner .requirements {font-size: 24px;color: #666;}
+.content .inner .requirements h2 {padding-top: 60px;height: 80px;}
+.content .inner .requirements p {line-height: 40px;}
+
+/* wisdom */
+.citybanner{position: relative;height: 500px;}
+.citybanner .citylictxt{position: absolute;left: 50%;top:25%;width: 70%;color: #fff;font-size: 72px;margin-left: -35%;}
+.citybanner .citylictxt p{height: 120px;line-height: 120px;text-align: center;}
+.citybanner .citylictxt span{font-size: 48px;display: block;line-height: 100px;height: 100px;text-align: center;}
+
+
+/*aboutUs*/
+.jie{margin-bottom: 10px;height: 100px;}
+.jobwork{height: 100px;width: 550px;float:right;margin-right: 200px;cursor:pointer;}
+.jobwork li{float: left;font-size: 24px;color: #666;width: 180px;line-height: 100px;cursor:pointer;text-align: center;}
+.jobwork li a{display:block;color: #666;}
+
+/*contact*/
+.contact .meet{margin-top: 60px;}
+.contact .meet .inmeet{margin: 0 auto;width: 1600px;}
+.contact .meet .inmeet .meetle{float: left;width: 770px;height: 475px;}
+.contact .meet .inmeet .meetle img{width: 100%;height: 100%;}
+.contact .meet .inmeet .meetri{float: left;width: 770px;padding-left: 50px;color: #000;font-size: 24px;line-height: 40px;height: 475px;}
+.contact .meet .inmeet .meetri span{display: block;line-height: 40px;padding-top: 15px;height: 40px;}
+.contact .meet .inmeet .meetri i{padding-top: 30px;height: 40px;display: block;padding-bottom: 30px;}
+.contact .meet .inmeet .intxt{color: #4b4b4b;font-size: 24px;line-height: 200px;text-align: center;margin-bottom: 50px;height: 200px;clear:both;}
+.contact .meet .inmeet .inmeetimg{height: 220px;margin-left: 510px;margin-bottom: 50px;}
+.contact .meet .inmeet .inmeetimg li{float: left;width: 220px;height: 220px;margin-left: 50px;}
+.contact .meet .inmeet .inmeetimg li img{width: 100%;height: 100%;}
+
+/* wechat */
+.cowechat .tab{width: 100px;background: #fff;position: absolute;left: 10%;top: 37%;z-index: 10;}
+.cowechat .tab li{height: 37px;line-height: 37px;text-align: center;color: #333;cursor:pointer;}
+.cowechat .tab .hover1{background: #5272f9;color: #fff;}
+.cowechat .tab .hover2{background: #5272f9;color: #333;}
+.cowechat .inweone{height: 900px;background: #30323e;color: #fff;position: relative;}
+ .cowechat .inweone h3{font-size: 48px;line-height: 80px;text-align: center;padding-top: 35px;}
+.cowechat .inweone p{height: 60px;font-size: 30px;line-height: 60px;padding-left: 365px;padding-bottom: 80px;}
+.cowechat .inweone ul{float: left;padding-left: 365px;}
+.cowechat .inweone ul li{height: 110px;font-size: 24px;}
+.cowechat .inweone ul li a{display: block;color: #fff;}
+.cowechat .inweone  .weoneimg{width: 800px;height: 550px;float: right;margin-right: 430px;}
+.cowechat .inweone  .weoneimg img{width: 100%;height: 100%;}
+.cowechat .inwetwo{height: 900px;background: #fff;}
+.cowechat .inwetwo h3{font-size: 48px;line-height: 80px;text-align: center;padding-top: 35px;}
+.cowechat .inwetwo p{height: 60px;font-size: 30px;line-height: 60px;padding-left: 365px;padding-bottom: 80px;}
+.cowechat .inwetwo ul{float: right;width: 470px;padding-right: 160px;}
+.cowechat .inwetwo ul li{height: 76px;font-size: 24px;text-align: right;}
+.cowechat .inwetwo ul li a{display: block;color: #333;}
+.cowechat .inwetwo  .weoneimg{width: 800px;height: 550px;float: left;margin-left: 315px;}
+.cowechat .inwetwo  .weoneimg img{width: 100%;height: 100%;}
+.cowechat .inwethree{height: 900px;background: #4f9cdb;color: #fff;}
+.cowechat .inwethree h3{height: 80px;font-size: 48px;line-height: 80px;text-align: center;padding-top: 20px;}
+.cowechat .inwethree p{height: 60px;font-size: 30px;line-height: 60px;padding-left: 365px;padding-bottom: 80px;}
+.cowechat .inwethree ul{float: left;padding-left: 365px;color: #fff;}
+.cowechat .inwethree ul li{height: 75px;font-size: 24px;}
+.cowechat .inwethree ul li a{color: #fff;display: block;}
+.cowechat .inwethree  .weoneimg{width: 800px;height: 550px;float: right;margin-right: 430px;}
+.cowechat .inwethree  .weoneimg img{width: 100%;height: 100%;}
+.cowechat .inwefour{height: 900px;background: #fff;}
+.cowechat .inwefour h3{font-size: 48px;line-height: 80px;text-align: center;padding-top: 35px;}
+.cowechat .inwefour p{height: 60px;font-size: 30px;line-height: 60px;padding-left: 365px;padding-bottom: 80px;}
+.cowechat .inwefour ul{float: right;width: 470px;padding-right: 160px;}
+.cowechat .inwefour ul li{height: 76px;font-size: 24px;text-align: right;}
+.cowechat .inwefour ul li a{display: block;color: #333;}
+.cowechat .inwefour  .weoneimg{width: 800px;height: 550px;float: left;margin-left: 315px;}
+.cowechat .inwefour  .weoneimg img{width: 100%;height: 100%;}
+.cowechat .eat:nth-child(2){display: block;}
+ .cowechat .eat{display:none;}
+
+
+
+

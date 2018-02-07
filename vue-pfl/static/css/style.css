@@ -1,0 +1,28 @@
+body,div,i,a,p,span,b,input,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dd,dt,textarea,img{margin:0;padding:0;}
+*{margin:0;padding:0;}
+body{font-family: microsoft yahei}
+i,b{font-style: normal;}
+a,s{text-decoration:none;}
+img{vertical-align: top}
+input,textarea,select,textarea,img{resize: none;outline: none;border:0 none;}
+input,select{*border-color:transparent; }
+input::-ms-clear{display:none;}
+select::-ms-expand { display: none; }
+textarea{overflow:auto}
+li{list-style: none}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+.clearfix:after{content: '';display: block;height:0;clear: both;font-size:0;*zoom:1}
+.clear{ height:0px !important;font-size:0 !important;clear:both !important;}
+.inner{margin:0 auto;}
+.fl{float: left;}
+.fr{float: right;}
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+fieldset, img { border: 0; } /* img 搭车：让链接里的 img 无边框 */
+button, input, select, textarea { font-size: 100%; } /* 使得表单元素在 ie 下能继承字体大小 */
+table { border-collapse: collapse; border-spacing: 0; }/** 重置表格元素 **/
+
+
+
+
