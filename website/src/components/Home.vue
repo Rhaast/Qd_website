@@ -62,8 +62,8 @@
 
 <script>
 	import Vue from 'vue'
-	import navfooter from 'components/base/navfooter'
-	import tab from 'components/base/tab'
+	import navfooter from './base/navfooter'
+	import tab from './base/tab'
 	import axios from 'axios'
 	
 	export default {
