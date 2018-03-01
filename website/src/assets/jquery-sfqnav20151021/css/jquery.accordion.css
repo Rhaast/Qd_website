@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul li{
+	list-style: none;
+	float: left;
+}
+.accordion{
+	width: 100%;
+	overflow: hidden;
+	height: 500px;
+}
+.accordion ul{
+	width: 1140px;
+	margin: 0 auto;
+}
+.accordion ul li{
+	background-repeat: no-repeat;
+	float: left;
+	width: 240px !important;
+	height: 350px;
+	cursor: default;
+	color: #fff;
+}
+.accordion ul li.active{
+	width: 420px !important;
+}
+.accordion ul .item1{
+	background-image: url(../img/websit.png);
+	text-align: left;
+}
+.accordion ul .item1 h2{
+	background-image: url(../img/websit.png);
+	font-size: 24px;
+	padding: 0 14px;
+	padding-top: 24px;
+}
+.accordion ul .item1 p{
+	font-size: 18px;
+	padding: 0 14px;
+	margin-top: 24px;
+}
+.accordion ul .item2{
+	background-image: url(../img/wapsit.png);
+	
+}
+.accordion ul .item2 h2{
+	font-size: 24px;
+	padding: 0 14px;
+	padding-top: 24px;
+}
+.accordion ul .item2 p{
+	font-size: 18px;
+	padding: 0 14px;
+	margin-top: 24px;
+}
+.accordion ul .item3{
+	background-image: url(../img/ui.png);
+}
+.accordion ul .item3 h2{
+	font-size: 24px;
+	padding: 0 14px;
+	padding-top: 24px;
+}
+.accordion ul .item3 p{
+	font-size: 18px;
+	padding: 0 14px;
+	margin-top: 24px;
+}
+.accordion ul .item4{
+	background-image: url(../img/systen.png);
+}
+.accordion ul .item4 h2{
+	font-size: 24px;
+	padding: 0 14px;
+	padding-top: 24px;
+}
+.accordion ul .item4 p{
+	font-size: 18px;
+	padding: 0 14px;
+	margin-top: 24px;
+}

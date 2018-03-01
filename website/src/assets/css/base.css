@@ -256,7 +256,7 @@ padding-top: 5px;cursor: pointer;}
 .infata .linetentff .comeonri img{height: 100%;width: 100%;}
 
 /* talentjob*/
-.main .inner{margin: 0 auto;width: 1600px;}
+.main .inner{margin: 0 auto;width: 1600px;margin-top: 90px;}
 .main .inner .innertop{height: 155px;border-bottom: 1px solid #666666;}
 .main .inner .innertop ul{color: #666;font-size: 36px;font-weight: bold;padding-top: 30px;text-align: center;}
 .main .inner .innertop ul li{float: left;width: 25%;height: 80px;line-height: 80px;}
@@ -341,6 +341,9 @@ padding-top: 5px;cursor: pointer;}
 .cowechat .inwefour  .weoneimg img{width: 100%;height: 100%;}
 .cowechat .eat:nth-child(2){display: block;}
  .cowechat .eat{display:none;}
+ .publicbanner{
+     z-index: -1;
+ }
 
 
 

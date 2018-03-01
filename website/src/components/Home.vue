@@ -1,6 +1,6 @@
 <template>
 	<div id="Home">
-		<tab></tab>
+		<div class="navheader"><tab></tab></div>
 		<div>
 			<keep-alive>
 				<router-view></router-view>
@@ -48,13 +48,30 @@
 		<div class="homemid">
 			<img :src="homemidUrl" />
 		</div>
-		<div class="inter">
-			<div class="homebot">
-				<h2>{{ homebot }}</h2>
-				<div class="inbot">
-					<vue-accordion :items="itemsbot"  :styles="styles"></vue-accordion>
-				</div>
-			</div>
+		<!-- jq -->
+		<div class="accordion">
+			<div class="homebot"><h2>{{ homebot }}</h2></div>
+			<ul>
+				<li class="item1 active">
+					<h2>网站建设</h2>
+				 	<p>网站建设综合服务，是为企业提供一对一的定制建站方案，帮助企业在网络中全面展示品牌优势，扩大商业影响力</p>
+					<a href=""></a></li>
+				<li class="item2">
+					<h2>移动端开发</h2>
+				 	<p>移动智能终端用户激增，带来了广阔的商业契机。移动应用开发服务，为企业深度挖掘移动流量，转流量为消费提供了有力支持</p>
+					<a href=""></a>
+					</li>
+				<li class="item3">
+					<h2>UI设计</h2>
+				 	<p>电商平台开发，为电商企业打开互联网营销新渠道，利用平台的数字化信息网络，企业可实现线上交易运营，获得更广阔的商业机遇</p>
+					<a href=""></a>
+					</li>
+				<li class="item4">
+					<h2>系统管理</h2>
+				 	<p>电商平台开发，为电商企业打开互联网营销新渠道，利用平台的数字化信息网络，企业可实现线上交易运营，获得更广阔的商业机遇</p>
+					<a href=""></a>
+					</li>
+			</ul>
 		</div>
 		<navfooter></navfooter>
 	</div>
@@ -65,34 +82,13 @@
 	import navfooter from './base/navfooter'
 	import tab from './base/tab'
 	import axios from 'axios'
+	import '../assets/jquery-sfqnav20151021/css/default.css'
+	import '../assets/jquery-sfqnav20151021/css/jquery.accordion.css'
+	import '../assets/jquery-sfqnav20151021/js/jquery.accordion'
 	
 	export default {
 		data() {
 			return {
-				styles:{ 
-					div: {
-						height: '350px'
-					}, 
-
-					ul: {
-						color: '#F00'
-					},
-
-					li: {
-						fontSize: '15px',
-					},
-					a: {
-					padding: '30px'
-					},
-					h2: {
-					marginTop: '100px'
-					},
-					p: {
-						textTransform: 'uppercase'
-					}
-				},
-
-
 				homebannerdata: [],
 				Corecompetence: '核心能力 Core competence',
 				mainleUrl: require('../assets/images/rjkf.png'),
@@ -163,36 +159,17 @@
 				homemidUrl: require('../assets/images/csygl_04.jpg'),
 
 				homebot: '互联网及IT服务 Internet and IT services',
-				itemsbot: [
-					{
-						title: '网站建设',
-						text: '网站建设综合服务，是为企业提供一对一的定制建站方案，帮助企业在网络中全面展示品牌优势，扩大商业影响力',
-						url: 'development',
-						image: require('../assets/images/hujk.jpg')					
-					},
-					{
-						title: '移动端开发',
-						text: '移动智能终端用户激增，带来了广阔的商业契机。移动应用开发服务，为企业深度挖掘移动流量，转流量为消费提供了有力支持',
-						url: 'activity',
-						image: require('../assets/images/hao_05.png')
-					},
-					{
-						title: 'UI设计',
-						text: '电商平台开发，为电商企业打开互联网营销新渠道，利用平台的数字化信息网络，企业可实现线上交易运营，获得更广阔的商业机遇',
-						url: 'portal',
-						image: require('../assets/images/hujklo.jpg')
-					},
-					{
-						title: '系统管理',
-						text: '网站建设综合服务，是为企业提供一对一的定制建站方案，帮助企业在网络中全面展示品牌优势，扩大商业影响力',
-						url: 'collection',
-						image: require('../assets/images/hao_05.png')
-					},
-				]
+
 			}
 		},
 		created() {
 			this.homebanner();
+
+		},
+		mounted () {
+							  $(document).ready(function(){
+	    			$(".accordion").accordion();
+	  });
 		},
 		methods: {
 			homebanner() {
@@ -224,8 +201,9 @@
 		},	
 	};
 </script>
-<style lang="scss" scoped="" type="text/css">
-
+<style lang="css" scoped="" type="text/css">
 	@import "../assets/css/base.css";
-
+.vue-accordion ul:hover li:hover a{
+	background:red !important;
+}
 </style>

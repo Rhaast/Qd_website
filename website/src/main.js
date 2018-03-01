@@ -13,7 +13,7 @@ import {vueAccordion} from 'vue-accordion'
 import iView from 'iview';
 import 'iview/dist/styles/iview.css';
 import '@/assets/js/jquery-3.1.0.min.js'
-
+import $ from 'jquery'
 Vue.use(iView);
 
 
@@ -21,8 +21,13 @@ Vue.use(ElementUI)
 Vue.component('vue-accordion', vueAccordion)
 Vue.config.productionTip = false
 /* eslint-disable no-new */
-
-
+// router.beforeEach((to, from, next) => {
+//   if (to.path === '/detailsjob') {
+//     alert(11)
+//   } else {
+//     next()
+//   }
+// })
 new Vue({
   el: '#app',
   router,

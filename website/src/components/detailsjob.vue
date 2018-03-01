@@ -15,7 +15,7 @@
                 <span v-html="english"></span>
             </div>
         </div>
-        <div class="content">
+        <div class="content" v-show="getaticledetail.status==1">
             <div class="inner">
                 <div class="job">{{getaticledetail.position}}</div>
                 <ul>
@@ -48,6 +48,10 @@
                 </div>
             </div>
         </div>
+        <div class="no-data" v-show="getaticledetail.status!=1">
+            <img src="../../static/images/3b672f490e8f2e25c2284af600db2758 (1).png" style="width:264px;height:185px">
+            <h1>数据不见了</h1>
+        </div>
         <navfooter></navfooter>
     </div>
 </template>
@@ -63,6 +67,7 @@
                 hanzi: '关于我们',
                 english: 'About us',
                 getaticledetail:{},
+                content:true,
             }
         },
         created() {
@@ -73,6 +78,7 @@
                     let that = this;
                     that.id = this.$route.query.id;
                     console.log(this.id);
+                     sessionStorage.setItem('id',JSON.stringify(this.id));
                     axios({
                         url: 'http://wansui.tunnel.echomod.cn/recruit/detail',
                         method: 'get',
@@ -81,7 +87,7 @@
                             id: this.id
                         }
                     }).then((res) => {
-                        if (res.status == 200) {
+                        if (res.data.data.status != 0) {
                             that.getaticledetail = res.data.data
                         }
                     })
@@ -101,5 +107,12 @@
 <style lang="scss" scoped="" type="text/css">
 
     @import "../assets/css/base.css";
+    .content{
+        margin-top: 60px;
+    }
+    .no-data{
+        margin-top: 120px;
+        text-align: center
+    }
    
 </style>
